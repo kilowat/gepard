@@ -52,6 +52,11 @@ body {
 	font-family: Roboto;
 	width: 100%;
 }
+.block-1{
+	height: 800px;
+	background-image: url(/images/block-1-bg.jpg);
+	background-repeat: no-repeat;
+}
 .logo {
     text-align: left;
 }
@@ -66,7 +71,7 @@ body {
     font-weight: 300;
 }
 .top-section{
-	margin-top: 8px;
+	margin-top: 7px;
     text-align: center;
 }
 .col-md-7.top-menu-wrapper{
@@ -111,10 +116,16 @@ body {
 }
 .top-menu li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 8px;
 }
 .top-menu li a{
-	color: #3a3a3a;
+ 	 background-color: #ccc;
+    border-radius: 3px;
+    color: #3a3a3a;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .top-menu li a:hover, .top-menu li a:active{
 	text-decoration: none;
