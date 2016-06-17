@@ -69,18 +69,41 @@ body {
 	margin-top: 8px;
     text-align: center;
 }
-
+.col-md-7.top-menu-wrapper{
+	width: 55.833%;
+}
+.user-section.col-md-2 {
+    text-align: left;
+    width: 19.1%;
+}
+.user-section.col-md-2 {
+    margin-top: 9px;
+    text-align: left;
+    width: 19.1%;
+}
 /*start component top-menu*/
 .top-menu{
 	list-style-type: none;
-	padding-top: 8px;
+	padding-top: 10px;
 	text-align: left;
 }
 .top-menu li {
     display: inline-block;
+    margin-right: 40px;
+}
+.top-menu li a{
+	color: #3a3a3a;
+}
+.top-menu li:last-child {
+    margin-right: 0;
+}
+/*end component top-menu*/
+.login-link {
+    background: #cb1332 none repeat scroll 0 0;
+    border-radius: 6px;
+    padding: 6px 15px;
 }
 
-/*end component top-menu*/
 
 .footer {
 	height: 100px;
