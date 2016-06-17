@@ -258,6 +258,41 @@ body * {
     font-weight: 500;
     font-size: 1.1em;
 }
+input[type="checkbox"]{
+    display:none;            
+}
+
+input[type="checkbox"] + label {
+  cursor: pointer;
+}
+input[type="checkbox"] + label::before{
+    background-image: url("/images/sprite.png");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 3px;
+    width: 18px;
+}
+input[type="checkbox"] + label::before {
+    background-position: 0px 0px;    
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-position: -76px 0;
+}
+input[type="checkbox"]:disabled + label::before {
+    background-position: -152px -260px;
+}
+input[type="checkbox"]:checked:disabled + label::before {
+    background-position: -171px -260px;
+}
+
+.checkbox label{
+  padding-left: 0px;
+}
 /*end component feed back form*/
 .footer {
 	height: 100px;
