@@ -294,6 +294,42 @@ input[type="checkbox"]:checked:disabled + label::before {
   padding-left: 0px;
 }
 /*end component feed back form*/
+
+/*start component rates*/
+.block-2{
+    background-color: #e8e8e8;
+}
+.rates-wrapper h1{
+    font-family: ProximaNova-Bold;
+    font-size: 3.6em;
+    font-style: italic;
+    line-height: 1.1em;
+    margin-top: 60px;
+    text-transform: uppercase;
+    margin-bottom: 50px; 
+}
+.rates-wrapper .rates-filter li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.rates-wrapper .rates-filter li a{
+    color: #000;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 1.3em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 165px;
+    display: inline-block;
+}
+.rates-wrapper .rates-filter li a:hover, .rates-wrapper .rates-filter li a.selected{
+    text-decoration: none;
+    background-color: #353535;
+    color: #fff;
+
+}
+/*end component rates*/
 .footer {
 	height: 100px;
 }
