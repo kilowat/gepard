@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/proxima_nova/regular/hinted-ProximaNova-Regular.eot');
+  src: url('../fonts/proxima_nova/regular/hinted-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova/regular/hinted-ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/proxima_nova/regular/hinted-ProximaNova-Regular.ttf') format('truetype'),
+    url('../fonts/proxima_nova/regular/hinted-ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ProximaNovaCond-Light';
+  src: url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/proxima_nova_condensed/light/ProximaNovaCond-Light.otf')  format('opentype'),
+       url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Light.woff') format('woff'), url('../fonts/proxima_nova_condensed/light/ProximaNovaCond-Light.ttf')  format('truetype'), url('../fonts/proxima_nova_condensed/light/ProximaNovaCond-Light.svg#ProximaNovaCond-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaCond-Regular';
+  src: url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Regular.otf')  format('opentype'),
+       url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Regular.woff') format('woff'), url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Regular.ttf')  format('truetype'), url('../fonts/proxima_nova_condensed/regular/ProximaNovaCond-Regular.svg#ProximaNovaCond-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../fonts/proxima_nova/semibold/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),  url('../fonts/proxima_nova/semibold/ProximaNova-Semibold.otf')  format('opentype'),
+       url('../fonts/proxima_nova/semibold/ProximaNova-Semibold.woff') format('woff'), url('../fonts/proxima_nova/semibold/ProximaNova-Semibold.ttf')  format('truetype'), url('../fonts/proxima_nova/semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/proxima_nova/bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/proxima_nova/bold/ProximaNova-Bold.otf')  format('opentype'),
+       url('../fonts/proxima_nova/bold/ProximaNova-Bold.woff') format('woff'), url('../fonts/proxima_nova/bold/ProximaNova-Bold.ttf')  format('truetype'), url('../fonts/proxima_nova/bold/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+  @font-face { font-family: "Rubl Sign"; src: url(http://www.artlebedev.ru/;-)/ruble.eot); }
+    span.rur { font-family: "Rubl Sign"; text-transform: uppercase; // text-transform: none;}    
+    span.rur span { position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; // display: none; }
+    span.rur span:before { content: '\2013'; }

@@ -52,6 +52,12 @@ body {
 	font-family: Roboto;
 	width: 100%;
 }
+body * {
+    font-family: roboto;
+}
+.text-center{
+    text-align: center;
+}
 .block-1{
 	height: 800px;
 	background-image: url(/images/block-1-bg.jpg);
@@ -86,6 +92,26 @@ body {
     text-align: left;
     width: 19.1%;
 }
+.top-phone-number {
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: 500;
+}
+#callback-link {
+    border-bottom: 1px dashed;
+    color: #000;
+    display: inline-block;
+}
+#callback-link:hover{
+    text-decoration: none;
+    color: #cb1332;
+}
+.top-address {
+    display: inline-block;
+    line-height: 1.1em;
+    margin-top: 5px;
+    text-align: right;
+}
 .login-link {
     background: #cb1332 none repeat scroll 0 0;
     border-radius: 4px;
@@ -116,27 +142,72 @@ body {
 }
 .top-menu li {
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 .top-menu li a{
- 	 background-color: #ccc;
+ 	background-color: rgba(255, 255, 255, 0.2);
     border-radius: 3px;
-    color: #3a3a3a;
+    color: #000;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 2px;
     padding-bottom: 2px;
+    font-weight: 500;
 }
-.top-menu li a:hover, .top-menu li a:active{
+.top-menu li a:hover, .top-menu li a:active, .top-menu li a.selected{
 	text-decoration: none;
-	color: #3a3a3a; 
+	color: #fff; 
+    background-color: #cb1332;
 }
 .top-menu li:last-child {
     margin-right: 0;
 }
 /*end component top-menu*/
+.section-top-title .header-wrapper{
+    text-align: left;
+    display: inline-block;
+}
+.section-top-title  h1 {
+    font-family: ProximaNova-Bold;
+    font-size: 3.6em;
+    font-style: italic;
+    line-height: 1.1em;
+    margin-top: 32px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.section-top-title  h2{
 
+}
+.section-top-title h2 > span:first-child {
+    font-size: 1.7em;
+    margin-top: 0;
+}
+.section-top-title h2 > span:nth-child(2) {
+    background-color: #cb1332;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    margin-top: 0;
+    padding: 2px 6px;
+}
+.col-md-12.section-top-title{
+    margin-bottom: 90px;
 
+}
+/*start component feed back form*/
+.feed-back-form {
+    display: inline-block;
+    width: 360px;
+}
+.feed-back-form .form-head{
+    background-color: #cb1332;
+    color: #fff;
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+/*end component feed back form*/
 .footer {
 	height: 100px;
 }
