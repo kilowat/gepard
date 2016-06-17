@@ -214,7 +214,7 @@ body * {
     padding-right: 24px;
 }
 .feed-back-form .form-body > div:nth-child(3) {
-    margin-top: 20px;
+    margin-top: 15px;
     padding-bottom: 13px;
     text-align: left;
 }
@@ -258,6 +258,11 @@ body * {
     font-weight: 500;
     font-size: 1.1em;
 }
+.feed-back-form .form-footer > input:hover{
+    background-color: #d70024;
+    color: #fff;
+}
+
 input[type="checkbox"]{
     display:none;            
 }
@@ -306,28 +311,123 @@ input[type="checkbox"]:checked:disabled + label::before {
     line-height: 1.1em;
     margin-top: 60px;
     text-transform: uppercase;
-    margin-bottom: 50px; 
+    margin-bottom: 45px; 
+}
+.rates-wrapper .rates-filter {
+    margin-bottom: 45px;
 }
 .rates-wrapper .rates-filter li{
     display: inline-block;
     margin-left: 15px;
     margin-right: 15px;
-}
-.rates-wrapper .rates-filter li a{
-    color: #000;
-    background-color: #fff;
-    border-radius: 3px;
-    font-size: 1.3em;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    width: 165px;
-    display: inline-block;
-}
-.rates-wrapper .rates-filter li a:hover, .rates-wrapper .rates-filter li a.selected{
-    text-decoration: none;
-    background-color: #353535;
-    color: #fff;
 
+} .rates-wrapper .rates-filter li a{     color: #000;     background-color:
+#fff;     border-radius: 3px;     font-size: 1.3em;     width: 165px;
+display: inline-block;     padding-bottom: 3px;     padding-top: 3px; }
+.rates-wrapper .rates-filter li a:hover, .rates-wrapper .rates-filter li
+a.selected{     text-decoration: none;     background-color: #353535;
+color: #fff;
+
+}
+.rates-wrapper .rates-cell{
+    width: 263px;
+    height: 520px;
+}
+.rates-wrapper .rates-header {
+    background-color: #353535;
+    border-radius: 20px 20px 0 0;
+
+}
+.rates-wrapper .rates-header h2 {
+    color: #e8e8e8;
+    font-size: 2.1em;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: 300;
+}
+.rates-wrapper .speed-info > div:first-child {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 7px;
+}
+.rates-wrapper .speed-info {
+    padding-bottom: 18px;
+    background-color: #fff;
+}
+.rates-wrapper .device-info {
+    background-color: #41ca88;
+    padding-bottom: 11px;
+    padding-top: 12px;
+}
+.rates-wrapper .device-info > span {
+    border-bottom: 1px dashed;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.95em;
+    position: relative;
+}
+.rates-wrapper .device-info > span::before {
+    background-image: url("/images/ic_wifi.png");
+    content: "";
+    display: block;
+    height: 23px;
+    left: -45px;
+    position: absolute;
+    top: -4px;
+    width: 35px;
+}
+.rates-wrapper .rates-descr {
+    background-color: #efefef;
+    line-height: 1.3em;
+    padding: 15px 15px 11px;
+}
+.rates-wrapper .check-box-wrapper {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+.rates-wrapper .check-box-wrapper >div:first-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+.rates-wrapper .check-box-wrapper > div {
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.rates-wrapper .check-box-wrapper label{
+    font-weight: 800;
+    font-size: 0.9em;
+}
+.rates-wrapper .check-box-wrapper {
+    background-color: #fff;
+    text-align: left;
+}
+.rates-wrapper .rates-footer {
+    background-color: #41ca88;
+    border-radius: 0 0 20px 20px;
+    padding-top: 8px;
+    height: 60px;
+}
+.rates-wrapper .rates-footer > div {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.rates-wrapper .rates-footer > input {
+    border: medium none;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 11px;
+    width: 205px;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1em;
+
+}
+.rates-wrapper .rates-footer > input:hover{
+    background-color: #d70024;
+    color: #fff;
 }
 /*end component rates*/
 .footer {
