@@ -81,6 +81,28 @@ body {
     text-align: left;
     width: 19.1%;
 }
+.login-link {
+    background: #cb1332 none repeat scroll 0 0;
+    border-radius: 4px;
+    padding: 7px 15px;
+    color: #fff;
+    font-size: 0.9em;
+}
+.login-link:hover, .login-link:active{
+	text-decoration: none;
+	color: #fff;
+}
+.ic_login {
+  	background: rgba(0, 0, 0, 0) url("/images/ic_login.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 15px;
+    left: -4px;
+    margin-right: 5px;
+    position: relative;
+    top: 0;
+    vertical-align: middle;
+    width: 10px;
+ }
 /*start component top-menu*/
 .top-menu{
 	list-style-type: none;
@@ -94,15 +116,14 @@ body {
 .top-menu li a{
 	color: #3a3a3a;
 }
+.top-menu li a:hover, .top-menu li a:active{
+	text-decoration: none;
+	color: #3a3a3a; 
+}
 .top-menu li:last-child {
     margin-right: 0;
 }
 /*end component top-menu*/
-.login-link {
-    background: #cb1332 none repeat scroll 0 0;
-    border-radius: 6px;
-    padding: 6px 15px;
-}
 
 
 .footer {
