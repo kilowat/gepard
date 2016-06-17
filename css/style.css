@@ -204,8 +204,59 @@ body * {
 .feed-back-form .form-head{
     background-color: #cb1332;
     color: #fff;
-    padding-bottom: 22px;
+    padding-bottom: 14px;
     padding-top: 22px;
+    border-radius: 15px 15px 0 0;
+}
+.feed-back-form .form-body {
+    background-color: #fff;
+    padding-left: 17px;
+    padding-right: 24px;
+}
+.feed-back-form .form-body > div:nth-child(3) {
+    margin-top: 20px;
+    padding-bottom: 13px;
+    text-align: left;
+}
+.feed-back-form .form-body > div:nth-child(3) input[type=checkbox] {
+   margin-right: 5px;
+   position: relative;
+   top: 1px;
+}
+.feed-back-form .form-body #oferta{
+    color: #cb1332;
+    text-decoration: none;
+    border-bottom: 1px dashed #cb1332;
+}
+.feed-back-form .form-body #oferta:hover{
+    text-decoration: none;
+}
+.feed-back-form .form-footer {
+    background-color: #41ca88;
+    border-radius: 0 0 15px 15px;
+    height: 30px;
+    position: relative;
+}
+.feed-back-form .form-body input[type="text"] {
+    height: 40px;
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 5px;
+    border:2px solid #41ca88 ;
+    padding-left: 15px;
+}
+.feed-back-form .form-head>span:first-child{
+    font-size: 1.2em;
+}
+.feed-back-form .form-footer > input {
+    border: medium none;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 16px;
+    width: 260px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.1em;
 }
 /*end component feed back form*/
 .footer {

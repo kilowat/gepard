@@ -62,10 +62,28 @@
           <div class="col-md-12 text-center">
             <!--start component feed back form-->
             <div class="feed-back-form">
-              <div class="form-head">
-              Закажите интернет прямо сейчас<br>
-              и получите 25 бесплатных ТВ каналов!
-              </div>
+              <form action="" method="POST">  
+                <div class="form-head">
+                <span>Закажите интернет прямо сейчас</span><br>
+                и получите 25 бесплатных ТВ каналов!
+                </div>
+                <div class="form-body">
+                  <div>
+                    <input type="text" name="name" value="" placeholder="Ваше имя*">
+                  </div>
+                  <div>
+                    <input type="text" name="phone" value="" placeholder="Номер телефона*">
+                  </div>
+                  <div>
+                    <input type="checkbox" name="confirm">
+                    <span>Я прочитал</span>
+                    <a href="#" title="договор публичной оферты" id="oferta">договор публичной оферты*</a>
+                  </div>
+                </div>
+                <div class="form-footer">
+                  <input type="submit" value="Отправить">
+                </div>
+              </form>
             </div>
             <!--end component feed back form-->
           </div>
