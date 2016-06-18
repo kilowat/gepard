@@ -154,7 +154,7 @@
                   </div>
                   <div class="rates-footer">
                     <div>400 руб/мес</div>
-                    <input type="submit" value="Подключить">
+                    <input type="submit" class="hover-up" value="Подключить">
                   </div>
                 </form>
               </div>
@@ -202,7 +202,7 @@
                   </div>
                   <div class="rates-footer">
                     <div>400 руб/мес</div>
-                    <input type="submit" value="Подключить">
+                    <input type="submit" class="hover-up" value="Подключить">
                   </div>
                 </form>
               </div>
@@ -250,7 +250,7 @@
                   </div>
                   <div class="rates-footer">
                     <div>400 руб/мес</div>
-                    <input type="submit" value="Подключить">
+                    <input type="submit" class="hover-up" value="Подключить">
                   </div>
                 </form>
               </div>
@@ -298,7 +298,7 @@
                   </div>
                   <div class="rates-footer">
                     <div>400 руб/мес</div>
-                    <input type="submit" value="Подключить">
+                    <input type="submit" class="hover-up" value="Подключить">
                   </div>
                 </form>
               </div>
@@ -341,6 +341,11 @@
             }
           ]
       });
+
+   $('.hover-up').hover(function(){
+      var $elem = $(this).parents('.rates-cell');
+      
+   });
    </script>
     <!--end 2st screen-->
 
