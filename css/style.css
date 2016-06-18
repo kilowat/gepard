@@ -604,9 +604,25 @@ color: #fff;
     border-top: 1px solid #cecece;
     font-size: 1.3em;
     font-weight: 500;
-    margin-bottom: 23px;
+    margin-bottom: 10px;
     padding-top: 15px;
 }
+.dop-serivces .dop-service-link {
+    background: #41ca88 none repeat scroll 0 0;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+.dop-serivces .dop-service-link:hover, .dop-serivces .dop-service-link:active{
+    background-color: #d70024;
+}
+
 /*end component dop services*/
 .footer {
 	height: 100px;
