@@ -263,55 +263,62 @@ body * {
     color: #fff;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"],
+input[type="radio"] {
     display:none;            
 }
-
-input[type="checkbox"] + label {
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
   cursor: pointer;
 }
-input[type="checkbox"] + label::before{
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
     background-image: url("/images/sprite.png");
     background-repeat: no-repeat;
     content: "";
     display: inline-block;
-    height: 18px;
+    height: 12px;
     margin: 0 5px 0 0;
     position: relative;
-    top: 3px;
-    width: 18px;
+    top: 2px;
+    width: 11px;
+}
+input[type="radio"] + label::before {
+   
+    height: 12px;
+    width: 12px;
 }
 input[type="checkbox"] + label::before {
-    background-position: 0px 0px;    
+   background-position: 0px 0px;    
 }
-
+input[type="radio"] + label::before {
+    background-position: 0px -12px;
+}
 input[type="checkbox"]:checked + label::before {
-    background-position: -76px 0;
+    background-position: -12px 0;
 }
-input[type="checkbox"]:disabled + label::before {
-    background-position: -152px -260px;
+input[type="radio"]:checked + label::before {
+    background-position: -13px -12px;
 }
-input[type="checkbox"]:checked:disabled + label::before {
-    background-position: -171px -260px;
+h1.title{
+    font-family: ProximaNova-Bold;
+    font-size: 3.6em;
+    font-style: italic;
+    line-height: 1.1em;
+    margin-bottom: 45px;
+    margin-top: 60px;
+    text-transform: uppercase;
 }
 
-.checkbox label{
-  padding-left: 0px;
-}
 /*end component feed back form*/
 
 /*start component rates*/
 .block-2{
     background-color: #e8e8e8;
+    height: 920px;
 }
 .rates-wrapper h1{
-    font-family: ProximaNova-Bold;
-    font-size: 3.6em;
-    font-style: italic;
-    line-height: 1.1em;
-    margin-top: 60px;
-    text-transform: uppercase;
-    margin-bottom: 45px; 
+
 }
 .rates-wrapper .rates-filter {
     margin-bottom: 45px;
@@ -330,8 +337,9 @@ color: #fff;
 
 }
 .rates-wrapper .rates-cell{
-    width: 263px;
+    width: 260px;
     height: 520px;
+    margin-bottom: 20px;
 }
 .rates-wrapper .rates-header {
     background-color: #353535;
@@ -350,9 +358,79 @@ color: #fff;
     font-weight: 600;
     padding-top: 7px;
 }
+.rates-wrapper .speed-bar {
+    position: relative;
+}
+.rates-wrapper .speed-bar-1::after {
+    background: rgba(0, 0, 0, 0) url("/images/speed_bar.png") repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 38px;
+    left: 19px;
+    position: absolute;
+    top: 18px;
+    width: 32px;
+}
+.rates-wrapper .speed-bar-2::after {
+    background: rgba(0, 0, 0, 0) url("/images/speed_bar.png") repeat scroll 25% 0;
+    content: "";
+    display: block;
+    height: 38px;
+    left: 19px;
+    position: absolute;
+    top: 18px;
+    width: 32px;
+}
+.rates-wrapper .speed-bar-3::after {
+    background: rgba(0, 0, 0, 0) url("/images/speed_bar.png") repeat scroll 50% 0;
+    content: "";
+    display: block;
+    height: 38px;
+    left: 19px;
+    position: absolute;
+    top: 18px;
+    width: 32px;
+}
+.rates-wrapper .speed-bar-4::after {
+    background: rgba(0, 0, 0, 0) url("/images/speed_bar.png") repeat scroll 75% 0;
+    content: "";
+    display: block;
+    height: 38px;
+    left: 19px;
+    position: absolute;
+    top: 18px;
+    width: 32px;
+}
+.rates-wrapper .speed-bar-5::after {
+    background: rgba(0, 0, 0, 0) url("/images/speed_bar.png") repeat scroll 100% 0;
+    content: "";
+    display: block;
+    height: 38px;
+    left: 19px;
+    position: absolute;
+    top: 18px;
+    width: 32px;
+}
 .rates-wrapper .speed-info {
     padding-bottom: 18px;
     background-color: #fff;
+}
+.rates-wrapper .action-link {
+    border: medium none;
+    text-decoration: underline;
+    position: relative;
+}
+.rates-wrapper .action-link:after {
+    background: #fff url("/images/ic_arrow.png") no-repeat scroll 0 8px;
+    cursor: pointer;
+    height: 20px;
+    margin-left: -18px;
+    margin-top: 1px;
+    position: absolute;
+    width: 18px;
+    z-index: 1;
+    content: "";
+    display: block;
 }
 .rates-wrapper .device-info {
     background-color: #41ca88;
@@ -376,10 +454,15 @@ color: #fff;
     top: -4px;
     width: 35px;
 }
+.rates-wrapper .rates-cell{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .rates-wrapper .rates-descr {
     background-color: #efefef;
     line-height: 1.3em;
-    padding: 15px 15px 11px;
+    padding: 15px 15px 19px;
 }
 .rates-wrapper .check-box-wrapper {
     background-color: #fff;
@@ -417,19 +500,114 @@ color: #fff;
 .rates-wrapper .rates-footer > input {
     border: medium none;
     border-radius: 20px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 600;
     height: 40px;
     margin-top: 11px;
     width: 205px;
-    color: #000;
-    font-weight: 600;
-    font-size: 1.1em;
-
 }
+
 .rates-wrapper .rates-footer > input:hover{
     background-color: #d70024;
     color: #fff;
 }
 /*end component rates*/
+
+/*start component our advantages*/
+.block-4 {
+    height: 610px;
+}
+.block-4 h1.title {
+    margin-bottom: 85px;
+}
+.our-advantages-list h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 9px;
+    margin-top: 32px;
+}
+.our-advantages-list .pic {
+    height: 139px;
+}
+.our-advantages-list .p-number{
+    font-size: 1.3em;
+}
+/*end component  our advantages*/
+
+/*start block action*/
+.block-action{
+    height: 310px;
+    background-image: url(/images/block-action-bg.jpg);
+    background-repeat: no-repeat;
+
+}
+.block-action #connect-link {
+    background-color: #fff;
+    border-radius: 30px;
+    color: #000;
+    display: inline-block;
+    font-size: 2.3em;
+    height: 67px;
+    margin-top: 121px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    width: 555px;
+}
+.block-action .ofert-2-link-wrapper{
+    background: rgba(255, 0, 0, 0.1) none repeat scroll 0 0;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 15px;  
+}
+.block-action .ofert-2-link-wrapper #oferta-2-link{
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+}
+.block-action .ofert-2-link-wrapper #oferta-2-link:hover{
+    text-decoration: none;
+}
+.block-action #connect-link:hover, .block-action #connect-link:active{
+    text-decoration: none;
+    color: #fff;
+    background-color: #d70024;
+}
+/*end block action*/
+
+/*start component dop services*/
+
+.block-5{
+    background-color: #f3f3f3;
+    height: 740px;
+}
+.block-5 h1.title {
+    margin-bottom: 64px;
+}
+.dop-serivces h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 19px;
+}
+.dop-serivces p{
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 20px;
+
+}
+.dop-serivces .descr {
+    border-top: 1px solid #cecece;
+}
+.dop-serivces .descr {
+    border-top: 1px solid #cecece;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 23px;
+    padding-top: 15px;
+}
+/*end component dop services*/
 .footer {
 	height: 100px;
 }
