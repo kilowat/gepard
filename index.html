@@ -106,7 +106,7 @@
           <div class="col-md-12 rates-wrapper text-center">
             <h1 class="title">тарифы</h1>
             <ul class="rates-filter">
-              <li><a href="" title="для квартиры" class="selected">для квартиры</a></li>
+              <li class="selected"><a href="" title="для квартиры" >для квартиры</a></li>
               <li><a href="" title="для дома">для дома</a></li>
             </ul>
             <div class="rates-list slick-slider">
@@ -159,7 +159,7 @@
                 </form>
               </div>
 
-              <div class="rates-cell">
+              <div class="rates-cell selected">
                 <div class="rates-header">
                   <h2>Базовый</h2>
                 </div>
@@ -314,7 +314,7 @@
         dots: false,
         slidesToShow: 4,
         slidesToScroll: 4,
-        variableWidth: true
+        variableWidth: true,
          responsive: [
             {
               breakpoint: 1200,
@@ -341,11 +341,6 @@
             }
           ]
       });
-
-   $('.hover-up').hover(function(){
-      var $elem = $(this).parents('.rates-cell');
-      
-   });
    </script>
     <!--end 2st screen-->
 
@@ -497,7 +492,7 @@
           </div>
         </div>
         <script type="text/javascript">
-           ymaps.ready(init);
+           //ymaps.ready(init);
               var myMap,
                   myPlacemark;
 
