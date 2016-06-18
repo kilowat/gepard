@@ -11,14 +11,33 @@
   <link href="/css/fonts.css" rel="stylesheet">
   <link href="/css/slick.css" rel="stylesheet">
   <link href="/css/slick-theme.css" rel="stylesheet">
+  <link href="/css/drawer.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=cyrillic-ext" rel="stylesheet"> 
   <script src="/js/jquery-2.2.3.min.js"></script>
   <!--<script src="http://pixp.fdrv.guru/pixp.js"></script>-->
   <script src="/js/slick.js"></script>
+  <script src="/js/iscroll.js"></script>
+  <script src="/js/drawer.js"></script>
 </head>
 
-<body>
-
+<body class="drawer drawer--left">
+    <!--start drawer-->
+      <div class="drawer-wrapper">
+       <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+          <div class="drawer-menu">
+            <ul>
+              <li><a class="" title="Тарифы" href="#">Тарифы</a></li>
+              <li><a class="" title="Наши преиумщества" href="#">Наши преиумщества</a></li>
+              <li><a class="" title="Дополнительные услуги" href="#">Дополнительные услуги</a></li>
+              <li><a class="" title="Контактные данные" href="#">Контактные данные</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--end drawer-->
   <main class="content">
   <!--start 1st screen-->
     <div class="block-1">
@@ -530,7 +549,14 @@
     </div>
     <!--end ya map-->
   </main><!-- .content -->
-
+  <script>
+    $('.drawer').drawer({
+        iscroll:{
+          bounce:false,
+        }
+      }
+    );
+  </script>
   <footer class="footer">
    <div class="container">
       <div class="row">

@@ -58,6 +58,9 @@ body * {
 .text-center{
     text-align: center;
 }
+.drawer-toggle.drawer-hamburger{
+    display: none;
+}
 .block-1{
 	height: 800px;
 	background-image: url(/images/block-1-bg.jpg);
@@ -844,6 +847,9 @@ footer .coop a:hover{
     }
 }
 @media (max-width: 779px){
+    .drawer-toggle.drawer-hamburger{
+        display: block;
+    }
     .row{
         margin: 0px!important;
     }
