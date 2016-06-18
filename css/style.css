@@ -460,6 +460,15 @@ h1.title{
     border: medium none;
     text-decoration: underline;
     position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(/images/ic_arrow.png);
+    background-repeat: no-repeat;
+   background-position: right center;
+    margin-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
 }
 .rates-wrapper .action-link:after {
     background: #fff url("/images/ic_arrow.png") no-repeat scroll 0 8px;
@@ -894,7 +903,8 @@ footer .coop a:hover{
         font-size: 2.5em;
     }
     .login-link{
-        margin-top: 20px;
+        margin-top: 10px;
+        display: inline-block;
     }
     .feed-back-form {
         width: 300px;
