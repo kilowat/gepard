@@ -618,6 +618,7 @@ color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.1em;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .dop-serivces .dop-service-link:hover, .dop-serivces .dop-service-link:active{
     background-color: #d70024;
@@ -627,11 +628,83 @@ color: #fff;
 }
 
 /*start ya map*/
-.ya-map{
-    height: 573px;
-    border-top: 8px solid #fab255;
-}
 /*end ya map*/
+#map{
+    border-top: 8px solid #fab255;
+    width: 100%;
+    height: 573px;
+    position: relative;
+}
+#map .map-descr{
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 15px;
+    top: 85px;
+    padding: 31px 35px 35px;
+}
+.map-descr .phone-number {
+    font-size: 2.3em;
+}
+.callback-link-map{
+    text-decoration: none;
+    color: #cb1332;
+    display:inline-block;
+    border-bottom: 1px dashed #cb1332;
+    margin-bottom: 10px;
+}
+.callback-link-map:hover, .callback-link-map:active{
+    text-decoration: none;
+}
+.map-descr .addess-list {
+    margin-bottom: 10px;
+}
+.map-descr .doc-word {
+    margin-top: 12px;
+    position: relative;
+    text-transform: uppercase;
+}
+.map-descr .doc-word::after {
+    background: #ccc none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: 1px;
+    top: 9px;
+    width: 65%;
+}
+.map-descr .pay-word {
+    margin-top: 0px;
+    position: relative;
+    text-transform: uppercase;
+}
+.map-descr .pay-word::after {
+    background: #ccc none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: 1px;
+    top: 9px;
+    width: 50%;
+}
+.map-descr .dashed-link {
+    margin-top: 8px;
+}
+.map-descr .dashed-link a{
+    text-decoration: none;
+    color: #cb1332;
+    display:inline-block;
+    border-bottom: 1px dashed #cb1332;
+    margin-bottom: 10px;
+}
+.map-descr .dashed-linka:hover, .map-descr .dashed-link a:active{
+    text-decoration: none;
+}
+.map-descr .pay-ico{
+    margin-top: 10px;
+}
 /*end component dop services*/
 .footer {
 	height: 48px;
