@@ -62,6 +62,7 @@ body * {
 	height: 800px;
 	background-image: url(/images/block-1-bg.jpg);
 	background-repeat: no-repeat;
+    background-position: center center;
 }
 .logo {
     text-align: left;
@@ -316,6 +317,18 @@ h1.title{
 .block-2{
     background-color: #e8e8e8;
     height: 920px;
+    position: relative;
+}
+.rates-list::after {
+    background-image: url("/images/wire.png");
+    background-repeat: no-repeat;
+    bottom: -250px;
+    content: "";
+    display: block;
+    height: 586px;
+    left: -286px;
+    position: absolute;
+    width: 1297px;
 }
 .rates-wrapper h1{
 
@@ -360,6 +373,7 @@ h1.title{
     color: #fff;  
     border:none;
 }
+
 .rates-wrapper .rates-cell{
     width: 260px;
     height: 520px;
@@ -682,14 +696,16 @@ h1.title{
 }
 
 /*start ya map*/
-/*end ya map*/
+.ya-map{
+    position: relative;
+}
 #map{
     border-top: 8px solid #fab255;
     width: 100%;
     height: 573px;
     position: relative;
 }
-#map .map-descr{
+.map-descr{
     position: absolute;
     z-index: 1;
     background-color: #fff;
@@ -761,7 +777,7 @@ h1.title{
 }
 /*end component dop services*/
 .footer {
-	height: 48px;
+	min-height: 48px;
     background-color: #cb1332;
 }
 footer .container > .row {
@@ -778,4 +794,103 @@ footer .coop a{
 footer .coop a:hover{
     color: #fff;
     text-decoration: underline;
+}
+@media (max-width:1198px){
+    .top-menu {
+        text-align: center;
+    }
+    .top-menu li {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .rates-list::after {
+        display: none;
+    }
+   .dop-serivces .descr{
+        font-size: 1.1em;
+    }
+}
+@media (max-width:991px){
+
+    .block-1{
+         background-size: cover;
+    }
+    .block-1, .block-2, .block-4, .block-5, .block-action{
+        height: auto;
+    }
+    .logo{
+        text-align: center;
+    }
+    .col-md-12.section-top-title {
+         margin-bottom: 40px;
+    }
+    .feed-back-form{
+        margin-bottom: 50px;
+    }
+    .block-action #connect-link {  
+        margin-top: 75px;
+    }
+    .block-action{
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+
+ 
+    .block-5{
+        padding-bottom: 30px;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media (max-width: 779px){
+    .row{
+        margin: 0px!important;
+    }
+    .top-menu-wrapper{
+        display: none;
+    }
+    .top-address{
+        display: none;
+    }
+    .section-top-title .header-wrapper{
+        text-align: center;
+    }
+    .section-top-title h2 > span:first-child {
+        display: block;
+    }
+    .rates-wrapper .rates-filter li{
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .rates-wrapper .rates-filter {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 187px;
+    }
+    .map-descr{
+        position: unset;    
+    }
+    #map{
+        height: 400px;
+    }
+    h1.title{
+        font-size: 2em;
+    }
+    .block-action #connect-link { 
+        height: 57px;
+        margin-top: 50px;
+        padding-top: 12px;
+        width: 300px;
+        font-size: 1.4em;
+    }
+    .section-top-title h1{
+        font-size: 2.5em;
+    }
+    .login-link{
+        margin-top: 20px;
+    }
+    .feed-back-form {
+        width: 300px;
+    }
 }
