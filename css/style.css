@@ -622,8 +622,33 @@ color: #fff;
 .dop-serivces .dop-service-link:hover, .dop-serivces .dop-service-link:active{
     background-color: #d70024;
 }
+.dop-serivces .pic {
+    height: 169px;
+}
 
+/*start ya map*/
+.ya-map{
+    height: 573px;
+    border-top: 8px solid #fab255;
+}
+/*end ya map*/
 /*end component dop services*/
 .footer {
-	height: 100px;
+	height: 48px;
+    background-color: #cb1332;
+}
+footer .container > .row {
+    margin-top: 13px;
+}
+footer .coop, footer .age{
+    color: #fff;
+    font-weight: 200;
+}
+footer .coop a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .coop a:hover{
+    color: #fff;
+    text-decoration: underline;
 }
