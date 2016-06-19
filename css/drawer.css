@@ -36,7 +36,6 @@
 }
 
 .drawer-menu  li {
-  display: table;
   height: 48px;
   list-style: outside none none;
   width: 100%;
