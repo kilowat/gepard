@@ -61,9 +61,6 @@ $(document).ready(function(){
 
     $('.drawer').drawer({
         iscroll:{
-          bounce:true,
-					preventDefault:false,
-					scrollbars:true
         }
       }
     );  
