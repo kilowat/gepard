@@ -156,7 +156,7 @@
   box-sizing: content-box;
   width: 2rem;
   padding: 0;
-  padding: 14px 1.75rem 24px;
+   padding: 8px 1.1rem 18px;
   -webkit-transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
   transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
   -webkit-transform: translate3d(0, 0, 0);
@@ -164,7 +164,7 @@
   border: 0;
   outline: 0;
   background-color: #cb1332;
-      margin-left: 25px;
+      margin-left: 15px;
     margin-top: 15px;
     border-radius: 7px;
 }

@@ -767,9 +767,10 @@ h1.title{
 .map-descr .dashed-link a{
     text-decoration: none;
     color: #cb1332;
-    display:inline-block;
     border-bottom: 1px dashed #cb1332;
-    margin-bottom: 10px;
+}
+.dashed-link li{
+	margin-bottom:10px;
 }
 .map-descr .dashed-linka:hover, .map-descr .dashed-link a:active{
     text-decoration: none;
@@ -779,6 +780,8 @@ h1.title{
 }
 /*end component dop services*/
 .footer {
+	padding-bottom:10px;
+	padding-top:10px;
 	min-height: 48px;
     background-color: #cb1332;
 }
@@ -860,6 +863,9 @@ footer .coop a:hover{
     }
 }
 @media (max-width: 779px){
+	.section-top-title h2 span {
+			font-size: 1.3em !important;
+	}
     .drawer-toggle.drawer-hamburger{
         display: block;
     }
@@ -878,6 +884,9 @@ footer .coop a:hover{
     .section-top-title h2 > span:first-child {
         display: block;
     }
+		.dop-serivces .col-md-4{
+			margin-bottom:20px;
+		}
     .rates-wrapper .rates-filter li{
        margin-top: 10px;
        margin-bottom: 10px;
@@ -910,6 +919,9 @@ footer .coop a:hover{
         margin-top: 10px;
         display: inline-block;
     }
+		.map-descr .phone-number{
+			font-size:1.3em;
+		}
     .feed-back-form {
         width: 300px;
     }
