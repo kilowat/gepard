@@ -64,9 +64,8 @@
     padding-bottom: 10px;
 		padding-top:10px;
     padding-left: 15px;
-    position: relative;
     text-decoration: none;
-    vertical-align: middle;
+		z-index:200;
 }
 .drawer-menu  li a:hover{
 	text-decoration:underline;
