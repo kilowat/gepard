@@ -63,7 +63,8 @@
 		border-bottom: 1px solid #878787;
     color: #fff;
     display: block;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+		padding-top:10px;
     padding-left: 15px;
     position: relative;
     text-decoration: none;
