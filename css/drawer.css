@@ -57,15 +57,17 @@
 .drawer-menu ul{
   padding: 0px;
   margin: 0px;
+	margin-top:15px;
 }
 .drawer-menu ul li a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
+		border-bottom: 1px solid #878787;
     color: #fff;
+    display: block;
+    padding-bottom: 15px;
     padding-left: 15px;
     position: relative;
-    border-bottom: 1px solid #878787;
+    text-decoration: none;
+    vertical-align: middle;
 }
 .drawer-menu-item:hover {
   text-decoration: underline;
