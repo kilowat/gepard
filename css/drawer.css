@@ -52,12 +52,12 @@
   margin-left: 0px;
   padding-left:0px;
 }
-.drawer-menu ul{
+.drawer-menu{
   padding: 0px;
   margin: 0px;
 	margin-top:15px;
 }
-.drawer-menu ul li a {
+.drawer-menu li a {
 		border-bottom: 1px solid #878787;
     color: #fff;
     display: block;
@@ -68,7 +68,7 @@
     text-decoration: none;
     vertical-align: middle;
 }
-.drawer-menu ul li a:hover{
+.drawer-menu  li a:hover{
 	text-decoration:underline;
 }
 .drawer-menu-item:hover {
