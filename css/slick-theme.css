@@ -33,6 +33,7 @@
     left: -25px;
     background-image: url(/images/left-arrow.png);
     background-size: contain;
+    z-index: 200;
 }
 [dir='rtl'] .slick-prev
 {
@@ -45,6 +46,7 @@
     background-image: url(/images/right-arrow.png);
     right: -25px;
     background-size: contain;
+    z-index: 200;
 }
 [dir='rtl'] .slick-next
 {

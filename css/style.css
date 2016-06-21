@@ -12,45 +12,45 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 /* End of Eric Meyer's CSS Reset */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
+    display: block;
 }
 body {
-	font-size: 14px;
-	font-family: Roboto;
-	width: 100%;
+    font-size: 14px;
+    font-family: Roboto;
+    width: 100%;
 }
 body * {
     font-family: roboto;
@@ -62,9 +62,9 @@ body * {
     display: none;
 }
 .block-1{
-	height: 800px;
-	background-image: url(/images/block-1-bg.jpg);
-	background-repeat: no-repeat;
+    height: 800px;
+    background-image: url(/images/block-1-bg.jpg);
+    background-repeat: no-repeat;
     background-position: center center;
 }
 .logo {
@@ -75,13 +75,13 @@ body * {
     padding-right: 8px;
 }
 .logo a span {
-	font-family: Roboto;
+    font-family: Roboto;
     color: #3a3a3a;
     font-size: 1.3em;
     font-weight: 300;
 }
 .top-section{
-	margin-top: 7px;
+    margin-top: 7px;
     text-align: center;
 }
 
@@ -114,11 +114,11 @@ body * {
     font-size: 0.9em;
 }
 .login-link:hover, .login-link:active{
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 .ic_login {
-  	background: rgba(0, 0, 0, 0) url("/images/ic_login.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("/images/ic_login.png") no-repeat scroll 0 0;
     display: inline-block;
     height: 15px;
     left: -4px;
@@ -130,16 +130,16 @@ body * {
  }
 /*start component top-menu*/
 .top-menu{
-	list-style-type: none;
-	padding-top: 10px;
-	text-align: left;
+    list-style-type: none;
+    padding-top: 10px;
+    text-align: left;
 }
 .top-menu li {
     display: inline-block;
     margin-right: 10px;
 }
 .top-menu li a{
- 	background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 3px;
     color: #000;
     padding-left: 10px;
@@ -149,8 +149,8 @@ body * {
     font-weight: 500;
 }
 .top-menu li a:hover, .top-menu li a:active, .top-menu li a.selected{
-	text-decoration: none;
-	color: #fff; 
+    text-decoration: none;
+    color: #fff; 
     background-color: #cb1332;
 }
 .top-menu li:last-child {
@@ -340,10 +340,10 @@ h1.title{
     background-color:#fff;    
     border-radius: 3px;   
     font-size: 1.3em;    
-    width: 165px;
+    width: 170px;
     display: inline-block;    
-    padding-bottom: 3px;   
-    padding-top: 3px;
+    padding-bottom: 5px;   
+    padding-top: 5px;
 }
 .rates-wrapper .rates-filter li a{
     color: #000;
@@ -496,8 +496,8 @@ h1.title{
 }
 .rates-wrapper .rates-cell{
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     position: relative;
 }
 .rates-cell.selected {
@@ -518,17 +518,18 @@ h1.title{
 
 }
 .rates-wrapper .rates-cell.selected::after {
-    background-color: rgba(0, 0, 0, 0.09);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100%;
-    bottom: -10px;
-    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.5);
+    bottom: 33px;
+    box-shadow: 0 3px 18px 2px rgba(0, 0, 0, 0.6);
     content: "";
     display: block;
     height: 0;
-    left: 24px;
+    left: 26px;
     position: absolute;
     width: 81%;
 }
+
 .rates-wrapper .rates-descr {
     background-color: #efefef;
     line-height: 1.3em;
@@ -577,6 +578,7 @@ h1.title{
     height: 40px;
     margin-top: 11px;
     width: 205px;
+    background-color: #fff;
 }
 
 .rates-wrapper .rates-footer > input:hover{
@@ -588,6 +590,7 @@ h1.title{
 /*start component our advantages*/
 .block-4 {
     height: 610px;
+    background-color: #f3f3f3;
 }
 .block-4 h1.title {
     margin-bottom: 85px;
@@ -770,7 +773,7 @@ h1.title{
     border-bottom: 1px dashed #cb1332;
 }
 .dashed-link li{
-	margin-bottom:10px;
+    margin-bottom:10px;
 }
 .map-descr .dashed-linka:hover, .map-descr .dashed-link a:active{
     text-decoration: none;
@@ -780,13 +783,13 @@ h1.title{
 }
 /*end component dop services*/
 .footer {
-	padding-bottom:10px;
-	padding-top:10px;
-	min-height: 48px;
+    padding-bottom:10px;
+    padding-top:10px;
+    min-height: 48px;
     background-color: #cb1332;
 }
 footer .container > .row {
-    margin-top: 13px;
+    margin-top: 5px;
 }
 footer .coop, footer .age{
     color: #fff;
@@ -801,34 +804,96 @@ footer .coop a:hover{
     text-decoration: underline;
 }
 
-@media (min-width:1198px){
-     .col-lg-2.col-md-2.col-sm-12.logo{
-        width: 24.5%;
+
+@media (max-width:1198px) and (min-width:992px){
+    .section-top-title h2 span {
+            font-size: 1.3em !important;
     }
-    .col-lg-7.col-md-6.col-sm-6.top-menu-wrapper{
-        width: 55.833%;
+    .drawer-toggle.drawer-hamburger{
+        display: block;
     }
-    .user-section.col-lg-3.col-md-4.col-sm-6 {
-        margin-top: 9px;
-        text-align: left;
-        width: 19.1%;
-    }   
-}
-@media (max-width:1198px){
-    .top-menu {
-        text-align: center;
+    .row{
+        margin: 0px!important;
     }
-    .top-menu li {
-        margin-bottom: 5px;
-        width: 100%;
-    }
-    .rates-list::after {
+    .top-menu-wrapper{
         display: none;
     }
-   .dop-serivces .descr{
-        font-size: 1.1em;
+    .top-address{
+        display: none;
     }
+    .section-top-title .header-wrapper{
+        text-align: center;
+    }
+        .dop-serivces .col-md-4{
+            margin-bottom:20px;
+        }
+    .rates-wrapper .rates-filter li{
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .rates-wrapper .rates-filter {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 187px;
+    }
+
+    h1.title{
+        font-size: 2em;
+    }
+    .block-action #connect-link { 
+        height: 57px;
+        margin-top: 50px;
+        padding-top: 12px;
+        width: 300px;
+        font-size: 1.4em;
+    }
+    .section-top-title h1{
+        font-size: 2.5em;
+    }
+    .login-link{
+        margin-top: 10px;
+        display: inline-block;
+    }
+        .map-descr .phone-number{
+            font-size:1.3em;
+        }
+    .feed-back-form {
+        width: 300px;
+    }
+    .top-phone-number {
+        float: left;
+    }
+    #callback-link {
+        float: left;
+    }
+     .feed-back-form {
+        float: right;
+        margin-right: 180px;
+    }
+    .rates-list::after {
+        background-image: url("/images/wire.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom: -250px;
+        content: "";
+        display: block;
+        height: 586px;
+        left: -261px;
+        position: absolute;
+        width: 1261px;
+    }
+    .section-top-title .header-wrapper {
+        text-align: right;
+    }
+     .block-1, .block-2, .block-4, .block-5{
+        height: auto;
+    }
+    .dop-serivces h2{
+        font-size: 1.4em;
+    }   
 }
+
+/*
 @media (max-width:991px){
 
     .block-1{
@@ -862,10 +927,37 @@ footer .coop a:hover{
         text-align: center;
     }
 }
-@media (max-width: 779px){
-	.section-top-title h2 span {
-			font-size: 1.3em !important;
-	}
+*/
+@media (max-width: 1102px){
+    .rates-list::after {
+     background-image: url("/images/wire.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom: -384px;
+        content: "";
+        display: block;
+        height: 586px;
+        left: -57px;
+        position: absolute;
+        width: 840px;
+    }
+}
+@media (max-width: 993px){
+    .rates-list::after {
+        display: none;
+    }
+    .block-1{
+        text-align: center;
+    }
+    .block-1, .block-2, .block-4, .block-5, .block-action{
+        height: auto;
+    }
+    .col-lg-2.col-md-6.col-sm-12.logo {
+        text-align: center;
+    }
+    .section-top-title h2 span {
+            font-size: 1.3em !important;
+    }
     .drawer-toggle.drawer-hamburger{
         display: block;
     }
@@ -884,9 +976,9 @@ footer .coop a:hover{
     .section-top-title h2 > span:first-child {
         display: block;
     }
-		.dop-serivces .col-md-4{
-			margin-bottom:20px;
-		}
+        .dop-serivces .col-md-4{
+            margin-bottom:20px;
+        }
     .rates-wrapper .rates-filter li{
        margin-top: 10px;
        margin-bottom: 10px;
@@ -898,6 +990,12 @@ footer .coop a:hover{
     }
     .map-descr{
         position: unset;    
+    }
+    .block-4{
+        height: auto;
+    }
+    .block-5{
+        height: auto;
     }
     #map{
         height: 400px;
@@ -919,9 +1017,9 @@ footer .coop a:hover{
         margin-top: 10px;
         display: inline-block;
     }
-		.map-descr .phone-number{
-			font-size:1.3em;
-		}
+        .map-descr .phone-number{
+            font-size:1.3em;
+        }
     .feed-back-form {
         width: 300px;
     }
