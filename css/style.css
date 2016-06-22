@@ -520,7 +520,7 @@ h1.title{
 .rates-wrapper .rates-cell.selected::after {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100%;
-    bottom: 33px;
+    bottom:-10px;
     box-shadow: 0 3px 18px 2px rgba(0, 0, 0, 0.6);
     content: "";
     display: block;
@@ -988,6 +988,9 @@ footer .coop a:hover{
     .logo {
         text-align: center;
     }
+    .col-md-12.section-top-title{
+        margin-bottom: 40px;
+    }
     .block-1, .block-2, .block-4, .block-5, .block-action{
         height: auto;
     }
@@ -1036,6 +1039,7 @@ footer .coop a:hover{
     }
     .block-4{
         height: auto;
+         padding-bottom: 20px;
     }
     .block-5{
         height: auto;
@@ -1043,6 +1047,7 @@ footer .coop a:hover{
     .block-action .container .row {
         height: 280px;
     }
+
     #map{
         height: 400px;
     }
@@ -1080,5 +1085,31 @@ footer .coop a:hover{
     }
     footer{
         text-align: center;
+    }
+}
+@media (max-width: 370px){
+    .map-descr .doc-word::after {
+        width: 50%;
+    }
+    .map-descr .pay-word::after{
+        width: 30%;
+    }
+}
+@media (max-width: 360px){
+
+    .section-top-title  h1{
+        font-size: 1.8em;
+    }
+    .section-top-title h2 > span:nth-child(2){
+        font-size: 1em;
+    }
+    .feed-back-form{
+        width: 100%;
+    }
+    .slick-prev{
+        left: -35px!important;
+    }
+    .slick-next{
+        right: -35px!important;
     }
 }
