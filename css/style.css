@@ -982,6 +982,8 @@ footer .coop a:hover{
     }
     .block-1{
         text-align: center;
+        background-position: center top;
+        background-color: #e8e8e8;
     }
     .logo {
         text-align: center;
