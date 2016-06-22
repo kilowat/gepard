@@ -12,24 +12,14 @@ $(document).ready(function(){
                 variableWidth: false,
                 slidesToShow: 3,
                 slidesToScroll: 3,
-                infinite: false,
-                dots: true
               }
             },
             {
-              breakpoint: 991,
+              breakpoint: 769,
               settings: {
-                variableWidth: false,
-                slidesToShow: 2,
-                slidesToScroll: 2
-              }
-            },
-            {
-              breakpoint: 640,
-              settings: {
-                 variableWidth: false,
+                variableWidth: true,
                 slidesToShow: 1,
-                slidesToScroll: 1,      
+                slidesToScroll: 1
               }
             }
           ]

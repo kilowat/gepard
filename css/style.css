@@ -805,7 +805,7 @@ footer .coop a:hover{
 }
 
 
-@media (max-width:1198px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:769px){
     .section-top-title h2 span {
             font-size: 1.3em !important;
     }
@@ -814,6 +814,9 @@ footer .coop a:hover{
     }
     .row{
         margin: 0px!important;
+    }
+    .block-1{
+         background-size: cover;
     }
     .top-menu-wrapper{
         display: none;
@@ -824,28 +827,8 @@ footer .coop a:hover{
     .section-top-title .header-wrapper{
         text-align: center;
     }
-        .dop-serivces .col-md-4{
-            margin-bottom:20px;
-        }
-    .rates-wrapper .rates-filter li{
-       margin-top: 10px;
-       margin-bottom: 10px;
-    }
-    .rates-wrapper .rates-filter {
-        display: inline-block;
-        margin-bottom: 20px;
-        width: 187px;
-    }
-
-    h1.title{
-        font-size: 2em;
-    }
-    .block-action #connect-link { 
-        height: 57px;
-        margin-top: 50px;
-        padding-top: 12px;
-        width: 300px;
-        font-size: 1.4em;
+    .dop-serivces .col-md-4{
+        margin-bottom:20px;
     }
     .section-top-title h1{
         font-size: 2.5em;
@@ -854,9 +837,9 @@ footer .coop a:hover{
         margin-top: 10px;
         display: inline-block;
     }
-        .map-descr .phone-number{
-            font-size:1.3em;
-        }
+    .map-descr .phone-number{
+      font-size:1.3em;
+    }
     .feed-back-form {
         width: 300px;
     }
@@ -869,18 +852,19 @@ footer .coop a:hover{
      .feed-back-form {
         float: right;
         margin-right: 180px;
+        margin-bottom: 70px;
     }
     .rates-list::after {
-        background-image: url("/images/wire.png");
+       background-image: url("/images/wire.png");
         background-repeat: no-repeat;
         background-size: contain;
-        bottom: -250px;
+        bottom: -334px;
         content: "";
         display: block;
         height: 586px;
-        left: -261px;
+        left: -86px;
         position: absolute;
-        width: 1261px;
+        width: 1040px;
     }
     .section-top-title .header-wrapper {
         text-align: right;
@@ -888,65 +872,118 @@ footer .coop a:hover{
      .block-1, .block-2, .block-4, .block-5{
         height: auto;
     }
+    .block-2{
+         padding-bottom: 85px;
+    }
+    .block-4{
+        padding-bottom: 50px;
+    }
     .dop-serivces h2{
         font-size: 1.4em;
-    }   
-}
-
-/*
-@media (max-width:991px){
-
-    .block-1{
-         background-size: cover;
     }
-    .block-1, .block-2, .block-4, .block-5, .block-action{
-        height: auto;
-    }
-    .logo{
-        text-align: center;
-    }
-    .col-md-12.section-top-title {
-         margin-bottom: 40px;
-    }
-    .feed-back-form{
-        margin-bottom: 50px;
-    }
-    .block-action #connect-link {  
-        margin-top: 75px;
-    }
-    .block-action{
-        padding-bottom: 30px;
-        margin-top: 20px;
-    }
-
- 
     .block-5{
-        padding-bottom: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .dop-serivces p {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    } 
+    .dop-serivces .descr{
+        font-weight: 400;
+    } 
+    .dop-serivces .descr b {
+        display: block;
+    } 
+    .block-2 .container {
+        width: 100%;
     }
     footer{
         text-align: center;
     }
 }
-*/
-@media (max-width: 1102px){
-    .rates-list::after {
-     background-image: url("/images/wire.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        bottom: -384px;
-        content: "";
-        display: block;
-        height: 586px;
-        left: -57px;
-        position: absolute;
-        width: 840px;
+@media (max-width:1006px){
+  .rates-list::after {
+    background-image: url("/images/wire.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -370px;
+    content: "";
+    display: block;
+    height: 586px;
+    left: -86px;
+    position: absolute;
+    width: 944px;
+  }  
+}
+@media (max-width:910px){
+  .rates-list::after {
+    background-image: url("/images/wire.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -396px;
+    content: "";
+    display: block;
+    height: 586px;
+    left: -86px;
+    position: absolute;
+    width: 871px;
+  }  
+}
+
+@media (max-width:871px) and (min-width:769px){
+    .dop-serivces .pic img{
+        width: 90%;
+    }
+    .dop-serivces .pic {
+        display: table-cell;
+        height: 169px;
+        vertical-align: bottom;
+        text-align: center;
+    }
+    .dop-serivces h2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .dop-serivces p {
+        min-height: 265px;
+        padding-bottom: 25px;
     }
 }
-@media (max-width: 993px){
+@media (max-width:865px) and (min-width:769px){
+    .rates-wrapper .speed-info > div:first-child{
+        padding-left: 30px;   
+    }
+    .rates-wrapper .action-link{
+        margin-left: 30px;
+    }
+    .rates-wrapper .device-info > span{
+        margin-left: 30px;
+    }
+}
+@media (max-width:850px){
+  .rates-list::after {
+    background-image: url("/images/wire.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -428px;
+    content: "";
+    display: block;
+    height: 586px;
+    left: -77px;
+    position: absolute;
+    width: 800px;
+  }    
+}
+@media (max-width: 769px){
     .rates-list::after {
         display: none;
     }
     .block-1{
+        text-align: center;
+    }
+    .logo {
         text-align: center;
     }
     .block-1, .block-2, .block-4, .block-5, .block-action{
@@ -991,11 +1028,18 @@ footer .coop a:hover{
     .map-descr{
         position: unset;    
     }
+    .block-1{
+        padding-bottom: 50px;
+        background-size: auto;
+    }
     .block-4{
         height: auto;
     }
     .block-5{
         height: auto;
+    }
+    .block-action .container .row {
+        height: 280px;
     }
     #map{
         height: 400px;
@@ -1005,7 +1049,6 @@ footer .coop a:hover{
     }
     .block-action #connect-link { 
         height: 57px;
-        margin-top: 50px;
         padding-top: 12px;
         width: 300px;
         font-size: 1.4em;
@@ -1022,5 +1065,18 @@ footer .coop a:hover{
         }
     .feed-back-form {
         width: 300px;
+    }
+    .col-md-12.rates-wrapper.text-center {
+       margin: auto;
+        width: 290px;
+    }
+    .slick-prev{
+        left: -50px!important;
+    }
+    .slick-next{
+        right: -50px!important;
+    }
+    footer{
+        text-align: center;
     }
 }
